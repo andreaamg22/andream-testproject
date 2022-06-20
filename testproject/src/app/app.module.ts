@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddParticipantComponent } from './components/add-participant/add-participant.component';
+import { EditParticipantComponent } from './components/edit-participant/edit-participant.component';
+import { ListParticipantComponent } from './components/list-participant/list-participant.component';
+import { LoginComponent } from './components/login/login.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddParticipantComponent,
+    EditParticipantComponent,
+    ListParticipantComponent,
+    LoginComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

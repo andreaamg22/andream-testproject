@@ -5,6 +5,7 @@ import { EditParticipantComponent } from './components/edit-participant/edit-par
 import { ListParticipantComponent } from './components/list-participant/list-participant.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TableParticipantComponent } from './components/table-participant/table-participant.component';
 
 const routes: Routes = [
 
@@ -14,6 +15,7 @@ const routes: Routes = [
     {path:'list-participant', component: ListParticipantComponent},
     {path:'login', component: LoginComponent},
     {path:'dashboard', component: DashboardComponent},
+    {path:'createparticipant', component: TableParticipantComponent},
 
 ];
 

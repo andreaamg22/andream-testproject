@@ -8,6 +8,7 @@ import { EditParticipantComponent } from './components/edit-participant/edit-par
 import { ListParticipantComponent } from './components/list-participant/list-participant.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TableParticipantComponent } from './components/table-participant/table-participant.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     EditParticipantComponent,
     ListParticipantComponent,
     LoginComponent,
-    DashboardComponent
+    DashboardComponent,
+    TableParticipantComponent
   ],
   imports: [
     BrowserModule,

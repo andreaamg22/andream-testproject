@@ -30,12 +30,12 @@ This is an example of how to list things you need to use the software and how to
   
   ### Installation
   
-  1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone [https://github.com/your_username_/Project-Name.git](https://github.com/andreaamg22/andream-testproject.git)
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```

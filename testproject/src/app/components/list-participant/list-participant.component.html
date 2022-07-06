@@ -1,93 +1,105 @@
+<app-navbar></app-navbar>
 <div class="container">
-    <router-outlet></router-outlet>
-    <table class="table align-middle mb-0 bg-white">
-        <thead class="bg-light">
-          <tr>
-            <th>Name</th>
-            <th>Family Name</th>
-            <th>Email</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <div class="d-flex align-items-center">
-                <img
-                    src="https://mdbootstrap.com/img/new/avatars/8.jpg"
-                    alt=""
-                    style="width: 45px; height: 45px"
-                    class="rounded-circle"
-                    />
-                <div class="ms-3">
-                  <p class="fw-bold mb-1">John Doe</p>
-                </div>
-              </div>
-            </td>
-            <td>
-              <p class="fw-normal mb-1">john.doe@gmail.com</p>
-            </td>
-            <td>
-              <button type="button" class="btn btn-link btn-sm btn-rounded">
-                Edit
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div class="d-flex align-items-center">
-                <img
-                    src="https://mdbootstrap.com/img/new/avatars/6.jpg"
-                    class="rounded-circle"
-                    alt=""
-                    style="width: 45px; height: 45px"
-                    />
-                <div class="ms-3">
-                  <p class="fw-bold mb-1">Alex Ray</p>
-                 </div>
-              </div>
-            </td>
-            <td>
-              <p class="fw-normal mb-1">alex.ray@gmail.com</p>
-              
-            </td>
-            <td>
-              <button
-                      type="button"
-                      class="btn btn-link btn-rounded btn-sm fw-bold"
-                      data-mdb-ripple-color="dark"
-                      >
-                Edit
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div class="d-flex align-items-center">
-                <img
-                    src="https://mdbootstrap.com/img/new/avatars/7.jpg"
-                    class="rounded-circle"
-                    alt=""
-                    style="width: 45px; height: 45px"
-                    />
-                <div class="ms-3">
-                  <p class="fw-bold mb-1">Kate Hunington</p>
-                </div>
-              </div>
-            </td>
-            <td>
-              <p class="fw-normal mb-1">kate.hunington@gmail.com</p>
-            </td>
-            <td>
-              <button
-                      type="button"
-                      class="btn btn-link btn-rounded btn-sm fw-bold"
-                      data-mdb-ripple-color="dark"
-                      >
-                Edit
-              </button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-  </div>
+  <br>
+  <mat-toolbar>
+      <span>Users</span>
+      <div>
+        <button type="button" class="btn btn-secondary float-left" routerLink="/create-user" >Create User</button>
+      </div>
+  </mat-toolbar>
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Family Name </th>
+        <th scope="col">Email</th>
+        <th scope="col">Role</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>markotto@gmail.com</td>
+        <td>Admin</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant" >Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Sofía</td>
+        <td>Perez</td>
+        <td>Sofía@gmail.com</td>
+        <td>User</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant" >Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>Bird</td>
+        <td>Larry@gmail.com</td>
+        <td>User</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant">Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Olivia</td>
+        <td>Santos</td>
+        <td>olives@gmail.com</td>
+        <td>Admin</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant">Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Alberto</td>
+        <td>Perez</td>
+        <td>alberto@gmail.com</td>
+        <td>User</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant">Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Jackson</td>
+        <td>Wang</td>
+        <td>teamwang@gmail.com</td>
+        <td>Admin</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant">Edit</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>Mark</td>
+        <td>Tuan</td>
+        <td>tuan@gmail.com</td>
+        <td>Admin</td>
+        <td>
+          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-dark" routerLink="/edit-participant">Edit</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+
+</div>

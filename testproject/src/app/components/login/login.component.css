@@ -21,3 +21,14 @@
     }
     }
 
+    .large{
+        width: 80%;
+        color: #ee7724;
+    }
+    .btn{
+        width: 80%;
+    }
+
+    .spinner{
+        margin: 0 auto;
+    }
